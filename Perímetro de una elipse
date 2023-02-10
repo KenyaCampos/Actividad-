@@ -1,0 +1,11 @@
+int SemiejeMenor, SemiejeMayor;
+
+            Console.WriteLine("Favor de ingresar el semi eje menor: ");
+            SemiejeMenor = int.Parse(Console.ReadLine());
+            Console.WriteLine("Favor de ingresar el semi eje mayor: ");
+            SemiejeMayor = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("El perimetro de la elipse es: " +
+                ((2 * Math.PI * Math.Sqrt(((SemiejeMenor * SemiejeMenor) + (SemiejeMayor * SemiejeMayor)) / 2))));
+
+            Console.ReadKey();
